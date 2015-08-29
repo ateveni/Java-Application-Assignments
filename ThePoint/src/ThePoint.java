@@ -13,7 +13,7 @@ public class ThePoint
 public ThePoint()
 {
 	x = 2;
-	x2 = 1
+	x2 = 1 //Missing semicolon
 	y = 4;
 	y2 = 3;
 }
@@ -26,10 +26,10 @@ public ThePoint (int x, int x2, int y, int y2)
 	this.y2 = y2;
 }
 
-/*public distance(int x, int x2, int y, int y2)
+/*public distance(int x, int x2, int y, int y2)  //Missing return type, should be int
 {
 	int distance;
-	distance = sqrt((Math.pow((x2-x),(x2-x))+(Math.pow((y2-y),(y2-y))));
+	distance = sqrt((Math.pow((x2-x),(x2-x))+(Math.pow((y2-y),(y2-y)))); //Missing return statement, also sqrt should be Math.sqrt
 }*/
 
 //ACCESSORS
@@ -47,7 +47,7 @@ public int getY()
 {
 	return y;
 }
-public int getY2
+public int getY2 //Missing parantheses
 {
 	return y2;
 }
